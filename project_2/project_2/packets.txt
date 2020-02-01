@@ -1,0 +1,48 @@
+7
+1
+Madeira - Funchal, Porto Santo
+2019/08/01
+2019/08/05
+300
+50
+28
+::::::::::
+-2
+Veneza
+2019/03/01
+2019/03/05
+300
+30
+24
+::::::::::
+3
+Douro vinhateiro - Porto, Régua, Pinhão, Vila Real
+2019/09/21
+2019/09/22
+100
+120
+66
+::::::::::
+-5
+Porto
+2019/05/09
+2019/05/15
+200
+150
+104
+::::::::::
+-4
+Portugal - Porto Santo, Vila Real, Porto
+2019/07/01
+2019/08/01
+410
+370
+370
+::::::::::
+7
+Matosinhos - Leca da Palmeira, Guifoes
+2019/05/23
+2019/06/01
+100
+200
+150

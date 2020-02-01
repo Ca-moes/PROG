@@ -1,0 +1,7 @@
+﻿  Exercicio_3_6.cpp
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_6\exercicio_3_6.cpp(111): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_6\exercicio_3_6.cpp(66): warning C4715: 'b_numdias': not all control paths return a value
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_6\exercicio_3_6.cpp(102): warning C4715: 'c_codigo': not all control paths return a value
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_6\exercicio_3_6.cpp(44): warning C4715: 'numtomes': not all control paths return a value
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_6\exercicio_3_6.cpp(140): warning C4715: 'c_nomedia': not all control paths return a value
+  Exercicio_3_6.vcxproj -> D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Ficha 1 (3_4)\Debug\Exercicio_3_6.exe

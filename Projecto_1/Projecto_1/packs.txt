@@ -1,0 +1,40 @@
+1
+1
+Madeira - Funchal, Porto Santo
+2019/08/01
+2019/08/05
+300
+30
+11
+::::::::::
+-2
+Portimao
+2019/03/02
+2019/03/05
+300
+24
+24
+::::::::::
+3
+Douro vinhateiro - Porto, Regua, Pinhao, Vila Real
+2019/09/21
+2019/09/22
+100
+62
+12
+::::::::::
+12
+Lisboa - Praia do Meco
+2019/04/13
+2019/04/14
+20
+90
+20
+::::::::::
+4
+Lisboa - Alto de Santa Catarina
+2019/06/08
+2019/07/04
+200
+5
+3

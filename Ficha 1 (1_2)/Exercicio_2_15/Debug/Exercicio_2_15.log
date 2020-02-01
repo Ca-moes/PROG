@@ -1,0 +1,5 @@
+﻿  Exercicio_2_15.cpp
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1\exercicio_2_15\exercicio_2_15.cpp(19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1\exercicio_2_15\exercicio_2_15.cpp(26): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1\exercicio_2_15\exercicio_2_15.cpp(28): warning C4244: '=': conversion from 'time_t' to 'double', possible loss of data
+  Exercicio_2_15.vcxproj -> D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Ficha 1\Debug\Exercicio_2_15.exe

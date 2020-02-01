@@ -1,0 +1,5 @@
+﻿  Testes_Exame_2.cpp
+D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Testes_Exame_2\Testes_Exame_2.cpp(13,18): warning C4018:  '<': signed/unsigned mismatch
+D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Testes_Exame_2\Testes_Exame_2.cpp(25,20): warning C4018:  '<': signed/unsigned mismatch
+D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Testes_Exame_2\Testes_Exame_2.cpp(38,20): warning C4018:  '<': signed/unsigned mismatch
+  Testes_Exame_2.vcxproj -> D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Testes_Exame\Debug\Testes_Exame_2.exe

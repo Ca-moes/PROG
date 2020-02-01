@@ -1,0 +1,69 @@
+REGRAS PARA INPUT:
+
+// 1ª - ler inputs com strings SEMPRE.
+// 2ª - ler com getline e não cin.
+// 3ª - criar função que verifica se <string> é valida (cheia de if's 
+para todos os casos) e devolte um bool
+	. verificar se há espaços
+	. verificar se tipo de dados é o pedido
+	. caso particular de str.len = 1
+	
+// 4ª - criar ciclo com valor de bool, caso falso volta a pedir
+// 5ª - Com valor de input correto, continuar 
+
+
+
+_____________________________________________________________________
+50 + 30 = 80
+60 + 20
+60 -> 1 min  -> (80/60)%10 -> ((seg1 + seg2)/ 60 )      <- transporte
+20 -> 20 seg -> (80%60)    -> ((seg1 + seg2) % 60	<- segundos
+
+
+35 + 59 + outro (((seg1 + seg2)/ 60 )%10)
+94
+60 + 34
+34 -> 94%60 -> minutos + outro -> (min1+min2)%60  +  ((seg1 + seg2)/ 60 )  <- minutos	
+60 -> 94/60 -> 					      (min1+min2)/60	   <- transporte
+
+
+10 + 15 + transporte
+25 + transporte
+24 + 1 + transporte
+1 + transporte -> 25%24 + transporte -> (hor1 + hor2)%24 + (min1+min2)/60 	<- horas
+
+(hor1+hor2) + ((min1+min2)/60) / 24
+
+1 2 3 - 1 0 1  - 3 2 1 - 3 2 1 
+
+1 3 2 - 1 0 0  - 3 3 1 - 3 2 1
+2 1 3 - 0 1 1  - 3 1 1 - 3 2 1
+
+___________
+
+2 3 1 - 0 1 0  - 3 3 1 - 3 2 1
+3 1 2 - 0 1 0  - 3 1 1 - 3 2 1
+__________
+
+3 2 1 - 0 0 0  - 3 2 1 - 3 2 1 
+
+
+
+1 1 1 - okay
+1 1 2 - okay
+1 2 1 - not   2 1 2
+2 1 1 - okay
+
+
+________________________________________________
+
+<500g  			-> 5€
+>=500 && <=1000		-> 5€    + 1.5€ por cada 100g acima de 500g
+>1000€ 			-> 12.5€ + 5.0€ por cada 250g acima de 1000g
+
+
+0	1	2	3	4	5	6
+
+6	0	1	2	3	4	5
+
+'+»«''?7

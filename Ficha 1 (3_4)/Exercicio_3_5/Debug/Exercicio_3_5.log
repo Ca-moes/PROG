@@ -1,0 +1,5 @@
+﻿  Exercicio_3_5.cpp
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_5\exercicio_3_5.cpp(43): warning C4018: '<': signed/unsigned mismatch
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_5\exercicio_3_5.cpp(50): warning C4018: '<': signed/unsigned mismatch
+d:\andre\work\mieic - ano 1 - semestre 2\programacao\ficha 1 (3_4)\exercicio_3_5\exercicio_3_5.cpp(77): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Exercicio_3_5.vcxproj -> D:\Andre\Work\MIEIC - ANO 1 - SEMESTRE 2\Programacao\Ficha 1 (3_4)\Debug\Exercicio_3_5.exe

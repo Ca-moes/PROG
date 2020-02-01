@@ -1,0 +1,11 @@
+﻿  Address.cpp
+  Agency.cpp
+C:\Users\Asus\Desktop\2sem\prog\project_2\project_2\Agency.cpp(462): warning C4138: '*/' found outside of comment
+C:\Users\Asus\Desktop\2sem\prog\project_2\project_2\Agency.cpp(462): error C2059: syntax error: '/'
+  checkInput.cpp
+  Client.cpp
+  main.cpp
+  Menus.cpp
+C:\Users\Asus\Desktop\2sem\prog\project_2\project_2\Menus.cpp(96): error C2039: 'removeClient': is not a member of 'Agency'
+  C:\Users\Asus\Desktop\2sem\prog\project_2\project_2\Agency.h(18): note: see declaration of 'Agency'
+  Generating Code...

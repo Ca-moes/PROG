@@ -1,0 +1,48 @@
+NiceHolidays
+133331145
+https://www.niceholidays.pt
+Rua Sem Nome / 100 / - / 4400-345 / Porto
+clients.txt
+packs.txt
+
+_________________________
+
+
+Rui Manuel
+234987156
+4
+Rua Sem Fim / 200 / 5Esq / 1200-001 / Lisboa
+10 ; 36 ; 2
+::::::::::
+Belmiro Miguel
+111987666
+2
+Avenida dos Grilos / 100 / - / 2300-101 / Coimbra
+100 ; 136 ; 20
+
+__________________________
+
+3
+1
+Madeira - Funchal, Porto Santo
+2019/08/01
+2019/08/05
+300
+30
+10
+::::::::::
+-2
+Veneza
+2019/03/02
+2019/03/05
+300
+24
+24
+::::::::::
+3
+Douro vinhateiro - Porto, Regua, Pinhao, Vila Real
+2019/09/21
+2019/09/22
+100
+62
+12

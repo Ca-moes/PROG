@@ -1,0 +1,194 @@
+﻿Uma *agência* é caraterizada pelos seguintes atributos: nome, número de identificação fiscal (NIF), morada,
+URL do seu web site, lista de pacotes turísticos que comercializa, e lista de clientes.
+
+Cada *cliente* é caraterizado por: nome, NIF, número de pessoas no agregado familiar, morada, lista
+de pacotes turísticos comprados, e total de compras efetuadas.
+
+Um *pacote turístico* inclui: um identificador único, o(s) local(ais) turístico(s) a visitar, a data de início, a data
+de fim, o preço por pessoa e o número máximo de pessoas que podem inscrever-se no pacote.
+
+Uma *morada* inclui: o nome da rua, o número da porta, o número do andar ("-" se não aplicável), o código
+postal e a localidade.
+
+Uma *data* é representada por: ano, mês e dia.
+
+
+________________________
+
+O objetivo último do trabalho prático é desenvolver um programa que permita a uma agência de viagens:
+i) gerir pacotes de viagens (adicionar, alterar ou eliminar); 
+ii) gerir clientes (adicionar novos clientes, vender-lhes um pacote turístico; ou eliminar clientes). 
+________________________
+
+Utilizando a facilidade de definição de estruturas (struct) e de definição de novos tipos de dados (typedef),
+disponíveis na linguagem, comece por definir novos tipos de dados para: 
+- agência de viagens (Agency),
+- cliente (Client), 
+- pacote turístico (TravelPack), 
+- morada (Address), e 
+- data (Date). 
+Defina também as estruturas de dados necessárias para guardar os dados de todos os clientes e de todos os pacotes turísticos.
+________________________
+
+O programa deve começar por ler o ficheiro agency.txt que contém: 
+- a informação estática da agência (nome, NIF, URL e morada), 
+- o nome do ficheiro onde está guardada a lista de clientes (ex: clients.txt) e 
+- o nome do ficheiro onde está guardada a informação dos pacotes turísticos (ex: packs.txt). 
+
+Uma vez obtido o nome dos ficheiros onde está a informação de clientes e pacotes turísticos, estes devem ser lidos de
+seguida, de modo a completar a informação da agência relativa a clientes e pacotes turísticos. 
+Cada item de informação no ficheiro agency.txt ocupa uma linha respeitando a seguinte ordem: 
+- nome 
+- NIF 
+- URL
+- morada  ("rua / número da porta / número do andar / código postal / localidade")
+- nome do ficheiro de clientes e 
+- nome do ficheiro de pacotes turísticos. 
+Uma morada é guardada numa linha com a seguinte sintaxe: 
+"rua / número da porta / número do andar / código postal / localidade" (ver exemplo na próxima secção).
+
+No ficheiro de clientes, a informação de cada cliente é escrita a seguir à do anterior, apenas separada por
+uma linha contendo a string “::::::::::” (10 carateres ':' consecutivos). Cada item de informação de cada
+cliente é escrito numa linha separada. A ordem dos itens/linhas de um cliente é:
+- nome
+- NIF
+- número de pessoas no agregado familiar
+- morada
+- lista de identificadores dos pacotes turísticos comprados e 
+- valor total de compras efetuadas.
+
+No ficheiro de pacotes turísticos, a informação de cada pacote é escrita a seguir à do pacote anterior,
+apenas separada por uma linha contendo a string “::::::::::” (10 carateres ":" seguidos). Cada item de
+informação de cada pacote é escrito numa linha separada. A ordem dos itens/linhas de um pacote são:
+- identificador único
+- o(s) local(ais) turístico(s) a visitar
+- data de início (ano/mês/dia)
+- data de fim (ano/mês/dia)
+- preço por pessoa e 
+- número máximo de pessoas. 
+Uma data tem o seguinte formato: ano/mês/dia.
+O formato dos ficheiros será ilustrado adiante.
+Os dados lidos dos ficheiros de clientes e de pacotes, no início do programa, devem ser guardados nas
+estruturas de dados, internas ao programa, escolhidas para o efeito. Antes de fim de cada execução do
+programa, o conteúdo dessas estruturas de dados deve ser escrito nos ficheiros respetivos, de forma a
+manter os dados atualizados.
+
+______________________________________
+
+Os ficheiros utilizados no programa são ficheiros de texto que podem ser criados com um editor de texto
+simples como, por exemplo, o Notepad do Windows. O programa deve começar por perguntar ao utilizador
+qual o nome do ficheiro da agência a usar, terminando com um erro caso algum dos ficheiros indicados
+(agência, clientes e pacotes turísticos – os nomes dos dois últimos não são pedidos, estão nas 2 últimas
+linhas do ficheiro da agência) não exista.
+Apresenta-se a seguir um possível conteúdo de um ficheiro da agência:
+
+***
+NiceHolidays
+133331145
+http://www.niceholidays.pt
+Rua Sem Nome / 100 / ‐ / 4400‐345 / Porto
+clients.txt
+packs.txt
+***
+
+Exemplo inventado para a agência NiceHolidays. Cada uma das linhas do ficheiro contém a seguinte informação: 
+- o nome da agência
+- o NIF
+- o URL
+- a morada (elementos da morada separados pelo carácter '/') (rua / número da porta / número do andar / código postal / localidade)
+- nome do ficheiro contendo informação de clientes e 
+- nome do ficheiro contendo informação sobre os pacotes turísticos.
+
+
+Um conteúdo possível de um ficheiro de clientes é de seguida mostrado:
+
+***
+Rui Manuel
+234987156
+4
+Rua Sem Fim / 200 / 5Esq / 1200‐001 / Lisboa
+10 ; 36 ; 2
+::::::::::
+Belmiro Miguel
+111987666
+2
+Avenida dos Grilos / 100 / ‐ / 2300‐101 / Coimbra
+100 ; 136 ; 20
+***
+
+Exemplo de um ficheiro de clientes com 2 clientes Cada uma das linhas do ficheiro contém a seguinte informação para cada cliente: 
+- nome do cliente
+- NIF
+- número de pessoas no agregado familiar
+- morada (elementos da morada separados pelo carácter ‘/’)
+- lista dos pacotes turísticos que já comprou (elementos da lista separados por ponto e vírgula). 
+- Uma linha com 10 caracteres ‘:’ consecutivos separa um cliente do seguinte.
+
+
+
+Um conteúdo possível de um ficheiro de pacotes turísticos é de seguida mostrado.
+
+****
+3
+1
+Madeira – Funchal, Porto Santo
+2019/08/01
+2019/08/05
+300
+30
+10
+::::::::::
+‐2
+Veneza
+2019/03/02
+2019/03/05
+300
+24
+24
+::::::::::
+3
+Douro vinhateiro ‐ Porto, Régua, Pinhão, Vila Real
+2019/09/21
+2019/09/22
+100
+62
+12
+****
+
+Exemplo de um ficheiro de pacotes turísticos com dois pacotes
+*** A primeira linha indica o identificador numérico único que foi atribuído ao último pacote que foi criado; ***
+Segue-se a informação dos pacotes turísticos. Cada uma das linhas de um pacote turístico contém a seguinte informação: 
+
+- identificador numérico único do pacote (positivo se o pacote estiver disponível, negativo se a pacote não estiver disponível), (1, 2, 3, 4, ...)
+- principal local turístico de destino (pode ser seguido de um hífen e de uma lista dos principais locais turísticos a visitar, separados por vírgula)
+- data de início da viagem (elementos da data separados pelo carácter '/')
+- data de fim da viagem (elementos da data separados pelo carácter '/') 
+- preço por pessoa
+- número de lugares inicialmente disponíveis no pacote e 
+- número de lugares vendidos. 
+Uma linha com 10 caracteres ':' consecutivos separa um pacote turístico do seguinte. 
+
+Nota: neste caso, foram criados 3 pacotes turísticos, mas o pacote número 2 já não está disponível (tendo por isso um identificador negativo).
+___________________________________________________
+
+Funcionalidades a implementar
+
+A parte da aplicação que deve implementar neste trabalho inclui as seguintes funcionalidades:
+
+1. Ler e guardar a informação da agência, dos clientes e dos pacotes turísticos armazenada em
+ficheiros.
+2. Gerir os clientes e pacotes turísticos: criar, alterar e remover um cliente ou um pacote turístico.
+3. Gerar e visualizar de modo formatado a informação de um cliente especificado.
+4. Gerar e visualizar de modo formatado a informação de todos os clientes da agência.
+5. Gerar e visualizar de modo formatado os pacotes turísticos disponíveis (todos, todos relativos a
+um destino específico, todos entre duas datas, todos os relativos a um destino específico e entre
+duas datas).
+6. Gerar e visualizar de modo formatado os pacotes turísticos vendidos (a um cliente específico, a
+todos os clientes).
+7. Efetuar a compra de um pacote turístico por um cliente.
+8. Calcular e visualizar o número e o valor total de pacotes vendidos.
+
+Testar com outros ficheiros e.g. cliente com nenhum pacote comprado
+
+
+------------------------- PARA AJUSTAR -------------------------

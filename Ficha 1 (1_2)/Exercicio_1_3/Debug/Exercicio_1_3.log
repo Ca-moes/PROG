@@ -1,0 +1,5 @@
+﻿  Exercicio_1_3.cpp
+d:\andré\work\mieic - ano 1 - semestre 2\programação\ficha 1\exercicio_1_3\exercicio_1_3.cpp(5): warning C4603: '_USE_MATH_DEFINES': macro is not defined or definition is different after precompiled header use
+  d:\andré\work\mieic - ano 1 - semestre 2\programação\ficha 1\exercicio_1_3\exercicio_1_3.cpp(5): note: Add macro to precompiled header instead of defining here
+  d:\andré\work\mieic - ano 1 - semestre 2\programação\ficha 1\exercicio_1_3\exercicio_1_3.cpp(7): note: use of precompiled header
+  Exercicio_1_3.vcxproj -> D:\André\Work\MIEIC - ANO 1 - SEMESTRE 2\Programação\Ficha 1\Debug\Exercicio_1_3.exe

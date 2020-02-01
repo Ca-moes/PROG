@@ -1,0 +1,27 @@
+Rui Manuel
+234987156
+4
+Rua Sem Fim / 200 / 5Esq / 1200-001 / Lisboa
+3 ; 2 ; 11
+504
+::::::::::
+Belmiro Miguel
+111987666
+2
+Avenida dos Grilos / 100 / - / 2300-101 / Coimbra
+1 ; 100 ; 136 ; 20
+1300
+::::::::::
+Andre Gomes
+233415700
+4
+Rua Aldeia do Sol / 370 / 3 / 4775-400 / Braga
+5 ; 3
+255
+::::::::::
+Ircilio Martins
+123456789
+1
+Rua dos Lampeoes / 1536 / 2Mei / 1234-321 / Brasilia
+0
+0

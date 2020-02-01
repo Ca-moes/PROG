@@ -1,0 +1,2 @@
+testinput != 0 && testinput != 2 && testinput != 2
+if (testinput == 2){input = "0";}
