@@ -2,6 +2,7 @@
 
 ## Programação
 
+![JorgeSilvaCantigas](https://raw.githubusercontent.com/Ca-moes/PROG/master/JorgeSilvaCantigas.jpg)
 
 [***Course Page***](https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=419988)
 
